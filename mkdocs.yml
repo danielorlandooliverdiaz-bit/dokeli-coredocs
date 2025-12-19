@@ -10,31 +10,36 @@ repo_url: https://github.com/danielorlandooliverdiaz-bit/dokeli-coredocs
 theme:
   name: material
   language: es
-  logo: assets/logo.png  # (Opcional, pondremos uno luego)
+  logo: assets/logo.png
   favicon: assets/favicon.png
   palette:
-    # Modo Oscuro (Default)
+    # Modo Oscuro (Por defecto)
     - scheme: slate
       primary: teal
       accent: cyan
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Cambiar a modo claro
     # Modo Claro
     - scheme: default
       primary: teal
       accent: cyan
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        name: Cambiar a modo oscuro
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
+    - navigation.tabs        # Pestañas superiores principales
+    - navigation.sections    # Mantiene las secciones abiertas en el lateral
+    - navigation.top         # Botón para volver arriba
+    - navigation.indexes     # <--- VITAL: Permite hacer clic en carpetas
     - search.suggest
     - search.highlight
     - content.code.copy
     - content.action.edit
+
+# Plugins básicos
+plugins:
+  - search
 
 # Extensiones "Power User"
 markdown_extensions:
@@ -58,6 +63,8 @@ markdown_extensions:
       permalink: true
 
 # Navegación
+# El formato "Nombre: carpeta/" le dice a MkDocs:
+# "Mira dentro de esa carpeta y lista TODO lo que encuentres automáticamente"
 nav:
   - Home: index.md
   - Onboarding: 00-onboarding/
