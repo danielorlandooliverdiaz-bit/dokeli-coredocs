@@ -6,3 +6,4 @@ Aquí recopilo mis laboratorios y notas de estudio.
 * [Peering de Redes](peering-vnet.md)
 * [Storage Accounts](storage.md)
 - [Load Balancer Lab](load-balancer-lab.md)
+- [Prueba Auto](prueba-auto.md)
