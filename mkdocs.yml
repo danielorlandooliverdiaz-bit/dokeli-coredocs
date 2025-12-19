@@ -1,0 +1,67 @@
+site_name: Dokeli Coredocs
+site_description: Engineering Handbook & Lab Notes.
+site_author: Daniel Orlando
+
+# Repositorio
+repo_name: dokeli-coredocs
+repo_url: https://github.com/danielorlandooliverdiaz-bit/dokeli-coredocs
+
+# Tema (Material for MkDocs - Slate Theme)
+theme:
+  name: material
+  language: es
+  logo: assets/logo.png  # (Opcional, pondremos uno luego)
+  favicon: assets/favicon.png
+  palette:
+    # Modo Oscuro (Default)
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    # Modo Claro
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+# Extensiones "Power User"
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+
+# Navegación
+nav:
+  - Home: index.md
+  - Onboarding: 00-onboarding/
+  - Linux (LFCS): 01-linux-lfcs/
+  - Redes (CCNA): 02-redes-ccna/
+  - Azure (AZ-104): 03-azure-az104/
+  - Platform Eng: 04-platform-eng/

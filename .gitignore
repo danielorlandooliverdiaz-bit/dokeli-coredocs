@@ -1,0 +1,14 @@
+# Build artifacts
+site/
+.cache/
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker volumes (si los hubiera locales)
+docker-data/
