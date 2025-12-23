@@ -45,7 +45,7 @@ Para resolver esto, necesito entender:
     ```
 
 ## 📸 Evidencia / Diagrama
-![Captura de evidencia] (2025-12-23-21-31-12.png)
+![Captura de evidencia](ev1.png "Evidencia 1")
 
 ## 📝 Notas Técnicas (El "Por Qué")
 * **Detalle 1:** Es posible que JSON ARM Templapletes sean difíciles de entender debido a su sintaxis.
