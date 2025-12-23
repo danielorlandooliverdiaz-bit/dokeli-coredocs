@@ -8,3 +8,4 @@ Aquí recopilo mis laboratorios y notas de estudio.
 - [Load Balancer Lab](load-balancer-lab.md)
 - [Prueba Auto](prueba-auto.md)
 - [AZ 104 Prerequisites For Azure Administrators](AZ-104-Prerequisites-for-Azure-administrators.md)
+- [AZ 104 Manage Identities And Governance In Azure](AZ-104-Manage-identities-and-governance-in-Azure.md)
