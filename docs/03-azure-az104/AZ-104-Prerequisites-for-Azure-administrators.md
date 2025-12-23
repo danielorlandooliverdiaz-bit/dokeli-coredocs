@@ -1,5 +1,5 @@
 # [ID/Título]: Título del Reto o Concepto
-> **Fecha:** 2025-12-23  |  **Estado:** 🚧 Completado  |  **Tags:** #Azure #Azure Portal
+> **Fecha:** 2025-12-23  |  **Estado:**  Completado  |  **Tags:** #Azure #Azure Portal
 
 ## 🎯 Misión / Objetivo
 El objetivo es empezar a exponerse a la plataforma de Azure.
